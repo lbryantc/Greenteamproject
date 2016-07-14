@@ -1,0 +1,166 @@
+body {
+    margin: auto;
+    display: 960px;
+    background-color:#f3fab6;
+    font-family: 'PT Serif', 'Averia Serif Libre', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'PT Sans', 'Prompt', sans-serif;
+    }
+    
+h1 {
+    background-color:#66CC00;
+    text-align: center;
+    height: 75px;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    /*background-color:#66CC00;*/
+    text-align: center;
+ }
+
+.nav {
+    margin:inherit;
+    /*width: 960px;*/
+    background-color: #a8cd1b;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+}
+
+#nav { font-family:'Prompt', 'PT Sans',  sans-serif;}
+a ul:visted{
+    
+    color: #00FF00;
+    font-size:20px;
+}
+
+a ul:hover{
+    
+    color: #FF00FF;
+    font-size:20px;
+}
+a ul:active { 
+    
+    color:#0000FF;
+    font-size: 20px;
+}
+
+li {
+    display: inline-block;
+    width: 120px;
+    margin-right: auto;
+}   
+
+.side {
+    float: left;
+    width: 30%;
+    height: 1200px;
+    border: 2px orange solid;
+    margin-top: 30px;
+    background-color: #FFAA00;
+}
+
+.side li {
+    width: 260px;
+    text-align: inherit;
+    display: block;
+    /*margin-top: 10px;*/
+    /*margin-left: 2px;*/
+    /*margin-right: 2px;*/
+    color: #FF0000; 
+    font-size: 18px;
+}
+
+.main {
+    float: right;
+    width: 69%;
+    border: 2px solid orange;
+    height: 1200px;
+    margin-top: 30px;
+    
+}
+
+.main img {
+    height: /*400px;*/ 100%;
+    width: /*330px*/ 100%;
+}
+
+.side img {
+    
+    height: 200px;
+    width: 200px;
+}
+    
+.menutable { 
+        background-color: #FFAA00;
+        /*display: inline-block;*/
+        margin: 30px auto;
+        width: 40%;/*this sets width of menu, we can adjust once all foods are in table*/
+}
+
+.chef {
+    width: 800px;
+    margin-top: 300px;
+    margin: 50px auto  auto;
+    background-color: #FFAA00;
+    padding:5px 50px 50px 50px;
+}
+
+table {
+    margin-top: 20px;/*brings menu off nav bar*/
+    margin-bottom: 20px;
+    font-weight: bold;/*this bolds all items in the 
+    menu table*/
+}
+
+th {
+    width: 600px;
+    text-align: left; /*menu items are headers and this left aligns*/
+    padding-left: 20px;
+}
+
+td {
+    width: 40px;
+    padding-right: 10px;
+    text-align: right;/*menu prices are data and this right aligns*/
+}
+
+.form {
+    margin:30px;
+    margin-right:  auto;
+    margin-left: auto;
+    width:960px;
+    height: 600px;
+    padding-left:30px;
+    background-color: #FFAA00;
+    
+}
+
+.contact{
+   /* margin:inherit;*/
+    /*background-color: #a8a8a0;*/
+   /* padding-bottom: 15px;
+    padding-top:2px;    there is no such class. we can add later if necessary JE*/
+}
+
+#contact {
+    text-align: left;
+    margin:auto;
+}
+
+
+#streetmap {
+   /* width: 200px;*/
+    /*size: 200%*/
+   /* height: 500px;*/
+  float: right;
+ margin: -395px -140px;
+}
+

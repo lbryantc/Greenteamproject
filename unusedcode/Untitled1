@@ -1,0 +1,52 @@
+ width: 400px; margin-left: 100px;
+ 
+  width: 400px; margin-left: 700px; 
+  
+   margin-top: 20px; margin-right:800px"
+   
+   <!---menu for the right side of .menu--->
+        <div class = "rightmenu" style = "background-color: yellow;padding-top: 10px;> 
+          <!---appetizer list--->
+            <h2>Appetizers</h2><br>
+             undecided <br>
+              undecided <br>
+               undecided <br>
+               
+        <!---main course list--->
+        <h2>Main Courses</h2>
+           Irish Stew <br>
+            Bacon and Cabbage <br>
+             Boxty <br>
+              Coddle <br>
+              
+        <!---side dishs--->
+        <h2>Side Dishes</h2><br>
+            Soda Bread.....$3.00 <br>
+             Einkorn and Barley...$8.00
+             
+        <h2>Desserts</h2><br>
+            Apple Keebler<br>
+            
+        <h2>Coffees, Teas, Bulmer's Cider and Boylan Soda</h2><br>
+            undecided <br>
+             undecided <br>
+             
+        <h2>Whiskey, Guinness, Bailey and Bunratty Irish Potchsheen</h2><br>
+            undecided <br>
+             undecided <br>
+    </div>
+    
+    .main container {
+   /* margin-left: auto;
+  /*  margin-right: auto;*/
+   /*width; 960px;*/
+    
+}
+
+
+
+th {
+    width: 600px;
+    text-align: left; /*menu items are headers and this left aligns*/
+    padding-left: 20px;
+}
